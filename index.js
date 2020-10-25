@@ -15,5 +15,6 @@ app.listen(PORT, () => console.log(`Express server currently running on port ${P
 //const router = express.Router();
 
 const functions = require('./functions.js');
+const tril = require('./trilateration.js');
 
-app.get('/', functions.test);
+app.get('/', functions.test)
